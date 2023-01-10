@@ -1,0 +1,304 @@
+body {
+  background-color: #8fa8da;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  margin: 10;
+  padding: 0;
+}
+.main0 {
+  display: flex;
+  justify-content: center;
+}
+.main01 {
+  display: flex;
+  justify-content: center;
+}
+.main1 {
+  display: flex;
+  justify-content: center;
+}
+.main15 {
+  display: flex;
+  justify-content: center;
+}
+.main2 {
+  display: flex;
+  flex: 200px;
+  align-items: center;
+  height: 40vh;
+  justify-content: center;
+  position: relative;
+}
+
+.ul1 {
+  width: 800px;
+}
+
+.li1 {
+  list-style: none;
+  color: #d2dae2;
+  font-size: 18px;
+  margin: 48px 0;
+  position: relative;
+}
+
+.li1::before,
+.li1::after {
+  content: "";
+  display: block;
+  height: 16px;
+  width: 100%;
+  background-color: #1f4a59;
+  position: absolute;
+  bottom: -28px;
+  border-radius: 16px;
+}
+
+.li1::before {
+  box-shadow: 0 0 6px rgba(252, 252, 252, 0.2);
+}
+
+.li1::after {
+  background-image: linear-gradient(90deg, #0fbcf9, #34e7e4);
+}
+
+.li1::after {
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.js::after {
+  animation-name: js;
+}
+
+.react::after {
+  animation-name: react;
+}
+
+.html5::after {
+  animation-name: html5;
+}
+
+.css3::after {
+  animation-name: css3;
+}
+
+.sketch::after {
+  animation-name: sketch;
+}
+
+@keyframes js {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes react {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes html5 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 55%;
+  }
+}
+
+@keyframes css3 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 40%;
+  }
+}
+
+@keyframes sketch {
+  from {
+    width: 0;
+  }
+  to {
+    width: 20%;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+.container {
+  display: flex;
+  width: 90vw;
+}
+
+.panel {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  flex: 0.5;
+  margin: 10px;
+  position: relative;
+  -webkit-transition: all 700ms ease-in;
+}
+
+.panel h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.panel.active {
+  flex: 5;
+}
+
+.panel.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+
+  .panel:nth-of-type(4),
+  .panel:nth-of-type(5) {
+    display: none;
+  }
+}
+.main6 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #1f1d36, #1e5128);
+}
+.h32 {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: initial;
+}
+
+.container1 .card1 .sci1 li a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.h21 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.container1 {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 15px;
+  margin: 0 auto;
+}
+
+.container1 .card1 {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 10px 15px 60px rgba(33, 35, 35, 0.9);
+}
+
+.container1 .card1 .face {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 .card1 .face.face1 {
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.container1 .card1:nth-child(1) .face.face2 {
+  background: linear-gradient(45deg, #19282f, #d3eca7);
+}
+
+.container1 .card1:nth-child(2) .face.face2 {
+  background: linear-gradient(45deg, #151d3b, #dadbbd);
+}
+
+.container1 .card1:nth-child(3) .face.face2 {
+  background: linear-gradient(45deg, #464660, #f1e9e5);
+}
+
+.container1 .card1 .face.face1 h21 {
+  margin: 0;
+  padding: 0;
+}
+
+.container1 .card1 .face.face2 {
+  background: #111;
+  transition: 0.5s;
+}
+
+.container1 .card1 .face.face2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.container1 .card1:hover .face.face2 {
+  height: 60px;
+}
+
+.container1 .card1 .face.face2 h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 10em;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.container1 .card1:hover .face.face2 h2 {
+  font-size: 2em;
+}
+.flex-container2 {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  width: 400px;
+  height: 250px;
+  background-color: lightgrey;
+}

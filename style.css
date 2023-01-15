@@ -258,14 +258,26 @@ li {
   background: linear-gradient(45deg, #464660, #f1e9e5);
 }
 
+.container1 .card1:nth-child(4) .face.face2 {
+  background: linear-gradient(45deg, #3535b3, #f1e9e5);
+}
+
+.container1 .card1:nth-child(5) .face.face2 {
+  background: linear-gradient(45deg, #5d3135, #f1e9e5);
+}
+
+.container1 .card1:nth-child(6) .face.face2 {
+  background: linear-gradient(45deg, #2d737d, #f1e9e5);
+}
+
 .container1 .card1 .face.face1 h21 {
   margin: 0;
   padding: 0;
 }
 
 .container1 .card1 .face.face2 {
-  background: #111;
-  transition: 0.5s;
+  background: rgb(126, 70, 70);
+  transition: 0.6s;
 }
 
 .container1 .card1 .face.face2::before {

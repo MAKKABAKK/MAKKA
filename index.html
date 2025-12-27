@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>小肖同学的小木屋</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">🏠 小肖同学的小木屋</a>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">首页</a></li>
+          <li><a href="#about" class="nav-link">关于我</a></li>
+          <li><a href="#travel" class="nav-link">旅行相册</a></li>
+          <li><a href="#blog" class="nav-link">博客文章</a></li>
+          <li><a href="#projects" class="nav-link">项目展示</a></li>
+          <li><a href="#contact" class="nav-link">联系方式</a></li>
+        </ul>
+        <div class="nav-social">
+          <a href="#" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" class="social-link" title="微信"><i class="fab fa-weixin"></i></a>
+          <a href="#" class="social-link" title="知乎"><i class="fab fa-zhihu"></i></a>
+          <a href="#" class="social-link" title="邮箱"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <img src="./images/avatar.png" alt="头像" class="hero-avatar" />
+        <h1 class="hero-title">你好呀，这里是小肖同学的小木屋</h1>
+        <p class="hero-subtitle">在一定程度上也是我的个人小博客了</p>
+        <p class="hero-description">我会在这里分享旅行照片、学习笔记和完成的小项目</p>
+        <div class="hero-tags">
+          <span class="tag">🔵 Python</span>
+          <span class="tag">🟢 机器学习</span>
+          <span class="tag">🟠 数据分析</span>
+          <span class="tag">🔴 旅行摄影</span>
+        </div>
+        <a href="#about" class="hero-btn">了解更多</a>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <h2 class="section-title">👤 关于我</h2>
+      <div class="about-content">
+        <div class="about-card">
+          <i class="fas fa-graduation-cap about-icon"></i>
+          <h3>教育背景</h3>
+          <p>本科在读 · 计算机科学与技术专业</p>
+          <p>对机器学习和数据科学充满热情</p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-code about-icon"></i>
+          <h3>技术栈</h3>
+          <p>Python · HTML/CSS · JavaScript</p>
+          <p>机器学习 · 深度学习 · 数据分析</p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-heart about-icon"></i>
+          <h3>兴趣爱好</h3>
+          <p>旅行摄影 · 阅读 · 探索新技术</p>
+          <p>记录生活中的美好瞬间</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="travel" class="travel-section">
+      <h2 class="section-title">✈️ 旅行相册</h2>
+      <p class="section-subtitle">记录走过的路，看过的风景</p>
+      <main class="main1">
+        <div class="container">
+          <div
+            class="panel active"
+            style="
+              background-image: url('./images/zhuangyuanjie.jpg');
+            "
+          >
+            <h3 class="h32">状元街</h3>
+          </div>
+          <div
+            class="panel"
+            style="
+              background-image: url('./images/nanao.jpg');
+            "
+          >
+            <h3 class="h32">南澳</h3>
+          </div>
+          <div
+            class="panel"
+            style="
+              background-image: url('./images/haibian.jpg');
+            "
+          >
+            <h3 class="h32">海边</h3>
+          </div>
+          <div
+            class="panel"
+            style="
+              background-image: url('./images/haibian.jpg');
+            "
+          >
+            <h3 class="h32">日出</h3>
+          </div>
+          <div
+            class="panel"
+            style="
+              background-image: url('./images/yunnan.jpg');
+            "
+          >
+            <h3 class="h32">云南</h3>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section id="blog" class="blog-section">
+      <h2 class="section-title">📝 博客文章</h2>
+      <p class="section-subtitle">分享学习心得和技术总结</p>
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-image">
+            <i class="fas fa-book-reader"></i>
+          </div>
+          <div class="blog-content">
+            <span class="blog-category">学习笔记</span>
+            <h3 class="blog-title">Python数据分析入门指南</h3>
+            <p class="blog-excerpt">从零开始学习Python数据处理，掌握Pandas和NumPy的基础用法...</p>
+            <div class="blog-meta">
+              <span><i class="far fa-calendar"></i> 2025-12-20</span>
+              <span><i class="far fa-eye"></i> 120 阅读</span>
+            </div>
+            <a href="#" class="blog-read-more">阅读更多 →</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <i class="fas fa-brain"></i>
+          </div>
+          <div class="blog-content">
+            <span class="blog-category">机器学习</span>
+            <h3 class="blog-title">深度学习模型调参心得</h3>
+            <p class="blog-excerpt">分享在模型训练过程中积累的调参经验和最佳实践...</p>
+            <div class="blog-meta">
+              <span><i class="far fa-calendar"></i> 2025-12-15</span>
+              <span><i class="far fa-eye"></i> 85 阅读</span>
+            </div>
+            <a href="#" class="blog-read-more">阅读更多 →</a>
+          </div>
+        </article>
+        <article class="blog-card">
+          <div class="blog-image">
+            <i class="fas fa-camera-retro"></i>
+          </div>
+          <div class="blog-content">
+            <span class="blog-category">旅行随笔</span>
+            <h3 class="blog-title">云南之旅：彩云之南的美景</h3>
+            <p class="blog-excerpt">云南旅行的所见所闻，感受少数民族文化和自然风光...</p>
+            <div class="blog-meta">
+              <span><i class="far fa-calendar"></i> 2025-11-28</span>
+              <span><i class="far fa-eye"></i> 200 阅读</span>
+            </div>
+            <a href="#" class="blog-read-more">阅读更多 →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">🚀 个人项目</h2>
+      <p class="section-subtitle">展示我的学习成果和项目作品</p>
+      <main class="main6">
+        <div class="container1">
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/beijing_housing_data_analysis.pdf" target="_blank">
+                  <h2>Beijing Housing Data Analysis</h2>
+                </a>
+                <p>北京房价信息的爬取清洗整理与分析</p>
+                <p style="font-size: 12px; color: #666;">使用Python爬虫技术获取北京房产数据，完成数据清洗、预处理和可视化分析，探索房价影响因素与市场趋势。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2>01</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/resnet50_cifar100_classification.pdf" target="_blank">
+                  <h2>ResNet50 CIFAR100 Classification</h2>
+                </a>
+                <p>基于 ResNet50 网络实现 Cifar100 图像分类</p>
+                <p style="font-size: 12px; color: #666;">基于ResNet50深度卷积神经网络，在CIFAR-100数据集上进行图像分类实验。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2>02</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/implicit_parallel_ecommerce_review.pdf" target="_blank">
+                  <h2>Implicit Parallel E-commerce Review</h2>
+                </a>
+                <p>隐式并行计算在女装电子商务评论分析中的应用</p>
+                <p style="font-size: 12px; color: #666;">基于深度学习的文本分类模型，分析女装电商平台评论数据。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="h21">03</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/college_students_psychological_prediction.pdf" target="_blank">
+                  <h2>College Students Psychological Prediction</h2>
+                </a>
+                <p>基于机器学习的大学生心理素质的分析与预测</p>
+                <p style="font-size: 12px; color: #666;">运用机器学习算法对大学生心理素质数据进行深入分析和预测建模。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="h21">04</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/yolov10_road_damage_detection.pdf" target="_blank">
+                  <h2>YOLOv10 Road Damage Detection</h2>
+                </a>
+                <p>基于 YOLOv10 模型的道路破损检测研究</p>
+                <p style="font-size: 12px; color: #666;">基于YOLOv10目标检测算法，实现道路破损区域的自动识别与检测。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="h21">05</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/yolov8_road_damage_detection.pdf" target="_blank">
+                  <h2>YOLOv8 Road Damage Detection</h2>
+                </a>
+                <p>基于改进 YOLOv8 模型的道路破损检测研究</p>
+                <p style="font-size: 12px; color: #666;">针对道路破损检测任务，对YOLOv8模型进行改进优化。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="h21">06</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/hadoop_bank_customer_loyalty.pdf" target="_blank">
+                  <h2>Bank Customer Loyalty Analysis</h2>
+                </a>
+                <p>基于 Hadoop 的银行客户忠诚度分析</p>
+                <p style="font-size: 12px; color: #666;">利用Hadoop大数据平台和Spark分布式计算框架，对银行客户数据进行忠诚度分析。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="h21">07</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/university_rankings_visualization.pdf" target="_blank">
+                  <h2>University Rankings Visualization</h2>
+                </a>
+                <p>2023 年 QS 世界大学排名的数据可视化</p>
+                <p style="font-size: 12px; color: #666;">对2023年QS世界大学排名数据进行可视化分析。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="h21">08</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/transformer_nmt.pdf" target="_blank">
+                  <h2>Transformer Chinese-English MT</h2>
+                </a>
+                <p>基于 Transformer 的中英文机器翻译研究</p>
+                <p style="font-size: 12px; color: #666;">基于Transformer神经网络架构，实现中英文之间的机器翻译任务。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="h21">09</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/multimodal_clip_research.pdf" target="_blank">
+                  <h2>Multimodal CLIP Research</h2>
+                </a>
+                <p>多模态 CLIP 模型研究与应用</p>
+                <p style="font-size: 12px; color: #666;">基于CLIP多模态大模型，研究图文理解和分类任务。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="h21">10</h2>
+            </div>
+          </div>
+          <div class="card1">
+            <div class="face face1">
+              <div class="content">
+                <a href="./paper/beijing_housing_analysis.pdf" target="_blank">
+                  <h2>Beijing Housing Analysis</h2>
+                </a>
+                <p>北京房产数据分析与可视化</p>
+                <p style="font-size: 12px; color: #666;">对北京房产市场数据进行全面爬取、清洗和可视化分析。</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="h21">11</h2>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">📬 联系方式</h2>
+      <p class="section-subtitle">期待与您交流与合作</p>
+      <div class="contact-content">
+        <div class="contact-card">
+          <i class="fab fa-github contact-icon"></i>
+          <h3>GitHub</h3>
+          <p>github.com/MAKKABAKK</p>
+          <a href="#" class="contact-link">访问主页 →</a>
+        </div>
+        <div class="contact-card">
+          <i class="fab fa-weixin contact-icon"></i>
+          <h3>微信</h3>
+          <p>扫描右侧二维码</p>
+          <img src="./images/wechat_qr.png" alt="微信二维码" class="contact-qr" />
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-envelope contact-icon"></i>
+          <h3>邮箱</h3>
+          <p>bh0786@126.com</p>
+          <a href="mailto:bh0786@126.com" class="contact-link">发送邮件 →</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2025 小肖同学的小木屋 | 用心记录，用爱生活 ❤️</p>
+      <p class="footer-links">
+        <a href="#home">首页</a> ·
+        <a href="#about">关于</a> ·
+        <a href="#blog">博客</a> ·
+        <a href="#contact">联系</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

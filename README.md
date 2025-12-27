@@ -92,12 +92,12 @@ MAKKA-main/
 
 1. 克隆仓库到本地：
 ```bash
-git clone https://github.com/MAKKABAKK/makka-blog.git
+git clone https://github.com/MAKKABAKK/MAKKA.git
 ```
 
 2. 进入项目目录：
 ```bash
-cd makka-blog
+cd MAKKA
 ```
 
 3. 使用本地服务器打开（推荐）：
@@ -117,7 +117,7 @@ http://localhost:8000
 ### 在线访问
 
 网站已部署至 GitHub Pages，可直接访问：
-- **在线地址**: https://makkabakk.github.io/makka-blog/
+- **在线地址**: https://makkabakk.github.io/MAKKA/
 
 ## 关于作者
 

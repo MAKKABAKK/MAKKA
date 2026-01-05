@@ -116,7 +116,8 @@ li {
 
 .container1 .card1 {
   position: relative;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: 400px;
   margin: 0 auto;
   background: #fff;
@@ -744,10 +745,11 @@ body {
 
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .blog-card {
